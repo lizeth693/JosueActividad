@@ -43,10 +43,10 @@ function draw(){
     Engine.update(engine);
     sound.play();
     if(keyCode==LEFT_ARROW){
-      box1.x=box1.x-10;
+      box1.position.x=box1.position.x-10;
     }
     if(keyCode==RIGHT_ARROW){
-      box1.x=box1.x+10;
+      box1.position.x=box1.position.x+10;
     }
     box1.display();
     ground.display();
